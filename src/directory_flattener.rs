@@ -12,7 +12,7 @@ pub struct Args {
     #[clap(
         short,
         long,
-        default_value = "F:\\Projects\\SC2DatasetPreparator\\processing\\directory_flattener\\input"
+        default_value = "F:\\Projects\\DirectoryFlattenerRS\\processing\\input"
     )]
     pub input_directory: String,
 
@@ -20,7 +20,7 @@ pub struct Args {
     #[clap(
         short,
         long,
-        default_value = "F:\\Projects\\SC2DatasetPreparator\\processing\\directory_flattener\\output"
+        default_value = "F:\\Projects\\DirectoryFlattenerRS\\processing\\output"
     )]
     pub output_directory: String,
 
